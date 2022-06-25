@@ -1,0 +1,40 @@
+{
+  "name": "react-usestateful-value",
+  "description": "useState with stateful default value reflect to component changes using the useEffect",
+  "version": "1.0.0-dev",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://www.meslzy.com/"
+  },
+  "main": "dist/src/index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc --build",
+    "patch": "npm version patch",
+    "publish": "npm publish"
+  },
+  "peerDependencies": {
+    "react": ">16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.14",
+    "typescript": "^4.4.3"
+  },
+  "files": [
+    "dist",
+    "readme.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meslzy/react-usestateful-value.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meslzy/react-usestateful-value/issues"
+  },
+  "homepage": "https://github.com/meslzy/react-usestateful-value#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
